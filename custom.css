@@ -1,0 +1,42 @@
+
+html {
+	background-color: #1c1e26;
+}
+
+.inline {
+	display: inline;
+}
+
+.float-left {
+	float: left;
+}
+
+
+
+/*Container*/
+.container {
+	padding-top: 10%;
+	width: 40%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.box1 {
+	position: relative;
+	width: 40%;
+	/*margin-right: auto;
+	margin-left: auto;*/
+	height: 150px;
+	margin: 5%;
+	cursor: pointer;
+}
+
+.box2 {
+	position: relative;
+	width: 40%;
+	/*margin-right: auto;
+	margin-left: auto;*/
+	height: 150px;
+	margin: 5%;
+	cursor: pointer;
+}

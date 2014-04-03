@@ -1,0 +1,268 @@
+
+/*Overwritten by JS*/
+.border-content {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0%;
+	left: 0px;
+}
+
+/* SIMULTANEOUS */
+.border-simultaneous {
+	position: absolute;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	/*border: 0px solid rgba(0,0,0,0.1);*/
+	pointer-events: none;
+}
+
+.border-simultaneous div {
+	position: absolute;
+	background: #2c3e52;
+}
+
+.border-simultaneous div:first-child,
+.border-simultaneous div:nth-child(3) {
+	width: 0;
+	height: 0px;
+}
+
+.border-simultaneous div:nth-child(2),
+.border-simultaneous div:nth-child(4) {
+	width: 0px;
+	height: 0;
+} 
+
+.border-simultaneous div:first-child {
+	top: 0;
+	left: 0;
+}
+
+/*Overwritten by JS*/
+.border-simultaneous.appear div:first-child {
+	width: 100%;
+	/*-webkit-transition: width 1.35s linear 0.3s;
+	transition:
+	 width 1.35s linear 0.3s;*/
+}
+
+.border-simultaneous div:nth-child(2) {
+	top: 0;
+	right: 0;
+}
+
+/*Overwritten by JS*/
+.border-draw.simultaneous div:nth-child(2) {
+	height: 100%;
+	/*-webkit-transition: height 1.35s linear 1.65s;
+	transition: height 1.35s linear 1.65s;*/
+}
+
+.border-simultaneous div:nth-child(3) {
+	right: 0;
+	bottom: 0;
+}
+
+/*Overwritten by JS*/
+.border-simultaneous.appear div:nth-child(3) {
+	width: 100%;
+	/*-webkit-transition: width 1.35s linear 3s;
+	transition: width 1.35s linear 3s;*/
+}
+
+/*Overwritten by JS*/
+.border-simultaneous div:nth-child(4) {
+	bottom: 0;
+	left: 0;
+}
+
+/*Overwritten by JS*/
+.border-simultaneous.appear div:nth-child(4) {
+	height: 100%;
+	/*-webkit-transition: height 1.35s linear 4.35s;
+	transition: height 1.35s linear 4.35s;*/
+}
+
+/*Overwritten by JS*/
+.border-simultaneous.appear {
+	z-index: 100;
+	/*border: 50px solid rgba(0,0,0,0.1);*/
+	/*opacity: 0;
+	-webkit-transition: border 0.3s, opacity 0.3s 5.7s;
+	transition: border 0.3s, opacity 0.3s 5.7s;*/
+}
+
+/* CONTINUOUS */
+.border-continuous {
+	position: absolute;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	/*border: 0px solid rgba(0,0,0,0.1);*/
+	pointer-events: none;
+}
+
+.border-continuous div {
+	position: absolute;
+	background: #2c3e52;
+}
+
+.border-continuous div:first-child,
+.border-continuous div:nth-child(3) {
+	width: 0;
+	height: 10px;
+}
+
+.border-continuous div:nth-child(2),
+.border-continuous div:nth-child(4) {
+	width: 10px;
+	height: 0;
+} 
+
+.border-continuous div:first-child {
+	top: 0;
+	left: 0;
+}
+
+/*Overwritten by JS*/
+.border-continuous.appear div:first-child {
+	/*width: 100%;
+	-webkit-transition: width 1.35s linear 0.3s;
+	transition:
+	 width 1.35s linear 0.3s;*/
+}
+
+.border-continuous div:nth-child(2) {
+	top: 0;
+	right: 0;
+}
+
+/*Overwritten by JS*/
+.border-draw.continuous div:nth-child(2) {
+	/*height: 100%;
+	-webkit-transition: height 1.35s linear 1.65s;
+	transition: height 1.35s linear 1.65s;*/
+}
+
+
+.border-continuous div:nth-child(3) {
+	right: 0;
+	bottom: 0;
+}
+
+/*Overwritten by JS*/
+.border-continuous.appear div:nth-child(3) {
+	/*width: 100%;
+	-webkit-transition: width 1.35s linear 3s;
+	transition: width 1.35s linear 3s;*/
+}
+
+
+.border-continuous div:nth-child(4) {
+	bottom: 0;
+	left: 0;
+}
+
+/*Overwritten by JS*/
+.border-continuous.appear div:nth-child(4) {
+	/*height: 100%;
+	-webkit-transition: height 1.35s linear 4.35s;
+	transition: height 1.35s linear 4.35s;*/
+}
+
+/*Overwritten by JS*/
+.border-continuous.appear {
+	z-index: 100;
+	/*border: 50px solid rgba(0,0,0,0.1);*/
+	/*opacity: 0;
+	-webkit-transition: border 0.3s, opacity 0.3s 5.7s;
+	transition: border 0.3s, opacity 0.3s 5.7s;*/
+}
+
+/* LINE */
+.line {
+	position: absolute;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	/*border: 0px solid rgba(0,0,0,0.1);*/
+	pointer-events: none;
+}
+
+.line div {
+	position: absolute;
+	background: #2c3e52;
+}
+
+/*.line div:first-child,
+.border-continuous div:nth-child(3) {
+	width: 0;
+	height: 10px;
+}
+
+.line div:nth-child(2),
+.line div:nth-child(4) {
+	width: 10px;
+	height: 0;
+} 
+
+.line div:first-child {
+	top: 0;
+	left: 0;
+}*/
+
+/*Overwritten by JS*/
+.line.appear div:first-child {
+	/*width: 100%;
+	-webkit-transition: width 1.35s linear 0.3s;
+	transition:
+	top: 0;
+	right: 0;
+}
+*/
+/*Overwritten by JS*/
+.line div:nth-child(2) {
+	/*height: 100%;
+	-webkit-transition: height 1.35s linear 1.65s;
+	transition: height 1.35s linear 1.65s;*/
+}
+
+
+/*.line div:nth-child(3) {
+	right: 0;
+	bottom: 0;
+}*/
+
+/*Overwritten by JS*/
+.line.appear div:nth-child(3) {
+	/*width: 100%;
+	-webkit-transition: width 1.35s linear 3s;
+	transition: width 1.35s linear 3s;*/
+}
+
+
+/*.line div:nth-child(4) {
+	bottom: 0;
+	left: 0;
+}*/
+
+/*Overwritten by JS*/
+.border-continuous.appear div:nth-child(4) {
+	/*height: 100%;
+	-webkit-transition: height 1.35s linear 4.35s;
+	transition: height 1.35s linear 4.35s;*/
+}
+
+/*Overwritten by JS*/
+.line.appear {
+	z-index: 100;
+	/*border: 50px solid rgba(0,0,0,0.1);*/
+	/*opacity: 0;
+	-webkit-transition: border 0.3s, opacity 0.3s 5.7s;
+	transition: border 0.3s, opacity 0.3s 5.7s;*/
+}
+
+	
+/*.line div:nth-child(2) {
