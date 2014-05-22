@@ -5,7 +5,7 @@ A JQuery based plugin in its baby steps for easy to implement, line based, CSS e
 
 Attempts to make this type of effect easier to implement by reducing the amount of HTML required as code required for this effect is appended to the DOM on load.
 
-See demo here: http://tapjay.github.io/
+See demo here: http://tapjay.github.io/projects/line/
 
 
 To use
